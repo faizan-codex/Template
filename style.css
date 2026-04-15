@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color:#daac00 ;
+      height: 135px;
+    background-color: #daac00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+    .nav-inner img {
+    height: 70px;
+}
+
+nav{
+    width: 60%;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar ul li {
+  margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+
+
+    .search-box {
+      display: flex;
+      background: #fbc502;
+      
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      padding: 12px 15px;
+      font-size: 16px;
+      background: transparent;
+      color: #fff;
+    }
+
+    .search-box input::placeholder {
+      color: #fff;
+      opacity: 0.8;
+    }
+
+    .search-box button {
+      background: #06b6d4; /* blue button */
+      border: none;
+      padding: 12px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search-box button i {
+      color: white;
+      font-size: 18px;
+    }
+/* Hero */
+.hero {
+  background: #fcc302;
+  padding: 50px 0;
+}
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+  max-width: 60%;
+}
+.hero-text h1 {
+    color: white;
+    font-size: 3.7rem;
+    line-height: 5rem;
+}
+.hero-text p {
+    margin: 15px 0;
+    color: white;
+    font-size: 30px;
+    line-height: 2.5rem;
+}
+.btn {
+padding: 17px 51px;
+    background: #00bec9;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn.outline {
+  background: none;
+  border: 2px solid #fff;
+  color: #ffffff;
+}
+.hero-img img {
+  max-width: 410px;
+}
+
+/* About */
+.about {
+  padding: 130px 0;
+}
+.about-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-text {
+  max-width: 60%;
+}
+.about-text h2{
+   color: rgb(0, 0, 0);
+    font-size: 3.7rem;
+    line-height: 5rem;
+}
+.about-text p {
+    margin: 15px 0;
+    font-size: 30px;
+    line-height: 2.5rem;
+}
+.about-text .btn {
+padding: 17px 51px;
+    background: #fcc302;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.about-img img {
+  max-width: 480px;
+}
+
+/* Services */
+.services {
+  background: #fcc302;
+  padding: 50px 0;
+  text-align: center;
+}
+.services p{
+    margin: 15px 0;
+    font-size: 25px;
+    color: #fff;
+    line-height: 2rem;
+}
+.services h2{
+    color: #fff;
+    font-size: 3.7rem;
+    line-height: 5rem;
+}
+.service-cards {
+  display: flex;
+  gap : 20px;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+
+}
+.card {
+  width: 30%;
+}
+.card h3{
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #fff;
+}
+.card p{
+
+}
+
+/* Team */
+.team {
+  text-align: center;
+  padding: 50px 0;
+}
+.team h2{
+   font-size: 3.7rem;
+}
+.team p{
+    margin: 15px 0;
+    font-size: 25px;
+    line-height: 2rem;
+}
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.member {
+  margin: 10px;
+  text-align: center;
+}
+.member img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.member h4{
+  font-size: 30px;
+}
+.member button{
+  background: none;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00bec9;
+   border-radius: 25px;
+    font-weight: 500  ;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Blog */
+.blog {
+  text-align: center;
+  padding: 50px 0;
+}
+.posts {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.post {
+  margin: 10px;
+  background: #f9f9f9;
+  padding: 20px;
+  width: 250px;
+}
+.post img {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 30px 0;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-col h4 {
+  margin-bottom: 10px;
+}
+.footer-col ul {
+  list-style: none;
+}
+.footer-col ul li {
+  margin: 5px 0;
+}
+.footer-col input {
+  padding: 5px;
+}
